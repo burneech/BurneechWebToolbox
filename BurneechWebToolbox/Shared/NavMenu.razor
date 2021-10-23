@@ -1,5 +1,5 @@
 ﻿<div class="top-row pl-4 navbar navbar-dark">
-    <a class="navbar-brand" href="">BurneechWebToolbox</a>
+    <a class="navbar-brand" href="">Burneech Web Toolbox</a>
     <button class="navbar-toggler" @onclick="ToggleNavMenu">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -8,18 +8,33 @@
 <div class="@NavMenuCssClass" @onclick="ToggleNavMenu">
     <ul class="nav flex-column">
         <li class="nav-item px-3">
-            <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
-                <span class="oi oi-home" aria-hidden="true"></span> Home
+            <NavLink class="nav-link" href="calculators">
+                <span class="oi oi-calculator" aria-hidden="true"></span> Calculators
             </NavLink>
         </li>
         <li class="nav-item px-3">
-            <NavLink class="nav-link" href="counter">
-                <span class="oi oi-plus" aria-hidden="true"></span> Counter
+            <NavLink class="nav-link" href="editors">
+                <span class="oi oi-pencil" aria-hidden="true"></span> Editors
             </NavLink>
         </li>
         <li class="nav-item px-3">
-            <NavLink class="nav-link" href="fetchdata">
-                <span class="oi oi-list-rich" aria-hidden="true"></span> Fetch data
+            <NavLink class="nav-link" href="media">
+                <span class="oi oi-image" aria-hidden="true"></span> Media
+            </NavLink>
+        </li>
+        <li class="nav-item px-3">
+            <NavLink class="nav-link" href="colors">
+                <span class="oi oi-brush" aria-hidden="true"></span> Colors
+            </NavLink>
+        </li>
+        <li class="nav-item px-3">
+            <NavLink class="nav-link" href="text">
+                <span class="oi oi-book" aria-hidden="true"></span> Text
+            </NavLink>
+        </li>
+        <li class="nav-item px-3">
+            <NavLink class="nav-link" href="fonts">
+                <span class="oi oi-text" aria-hidden="true"></span> Fonts
             </NavLink>
         </li>
     </ul>
