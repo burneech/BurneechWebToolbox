@@ -4636,10 +4636,30 @@ input[type=button].btn-block, input[type=reset].btn-block, input[type=submit].bt
             flex: 1 0 0%;
             -ms-flex-direction: column;
             flex-direction: column;
-            margin-right: 15px;
-            margin-bottom: 0;
-            margin-left: 15px
+            margin-top: 5px;
+            margin-right: 5px;
+            margin-bottom: 5px;
+            margin-left: 5px
         }
+}
+
+/*Handles the card-deck wrapping for viewport changes*/
+@media (min-width: 576px) {
+    .card-deck .card {
+        min-width: 50%;
+    }
+}
+
+@media (min-width: 768px) {
+    .card-deck .card {
+        min-width: 35%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .card-deck .card {
+        min-width: 20%;
+    }
 }
 
 .card-group {
