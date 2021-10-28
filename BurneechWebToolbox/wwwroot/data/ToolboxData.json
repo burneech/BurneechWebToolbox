@@ -1,0 +1,110 @@
+[
+    {
+        "Title": "Calculators",
+        "Image": "calculators.jpg",
+        "Href": "calculators",
+        "Summary": "Calculators, converters & generators.",
+        "Pages": [
+            {
+                "Title": "CategoryPage1Title",
+                "URL": "CategoryPage1URL",
+                "Summary": "CategoryPage1Summary"
+            },
+            {
+                "Title": "CategoryPage2Title",
+                "URL": "CategoryPage2URL",
+                "Summary": "CategoryPage2Summary"
+            }
+        ]
+    },
+    {
+        "Title": "Editors",
+        "Image": "editors.jpg",
+        "Href": "editors",
+        "Summary": "Different kinds of online editors.",
+        "Pages": [
+            {
+                "Title": "CategoryPage1Title",
+                "URL": "CategoryPage1URL",
+                "Summary": "CategoryPage1Summary"
+            },
+            {
+                "Title": "CategoryPage2Title",
+                "URL": "CategoryPage2URL",
+                "Summary": "CategoryPage2Summary"
+            }
+        ]
+    },
+    {
+        "Title": "Media",
+        "Image": "media.jpg",
+        "Href": "media",
+        "Summary": "Images, icons, videos etc.",
+        "Pages": [
+            {
+                "Title": "CategoryPage1Title",
+                "URL": "CategoryPage1URL",
+                "Summary": "CategoryPage1Summary"
+            },
+            {
+                "Title": "CategoryPage2Title",
+                "URL": "CategoryPage2URL",
+                "Summary": "CategoryPage2Summary"
+            }
+        ]
+    },
+    {
+        "Title": "Colors",
+        "Image": "colors.jpg",
+        "Href": "colors",
+        "Summary": "UI colors, palettes, color pickers etc.",
+        "Pages": [
+            {
+                "Title": "CategoryPage1Title",
+                "URL": "CategoryPage1URL",
+                "Summary": "CategoryPage1Summary"
+            },
+            {
+                "Title": "CategoryPage2Title",
+                "URL": "CategoryPage2URL",
+                "Summary": "CategoryPage2Summary"
+            }
+        ]
+    },
+    {
+        "Title": "Text",
+        "Image": "text.jpg",
+        "Href": "text",
+        "Summary": "Text, characters, dictionaries, encoding, licences...",
+        "Pages": [
+            {
+                "Title": "CategoryPage1Title",
+                "URL": "CategoryPage1URL",
+                "Summary": "CategoryPage1Summary"
+            },
+            {
+                "Title": "CategoryPage2Title",
+                "URL": "CategoryPage2URL",
+                "Summary": "CategoryPage2Summary"
+            }
+        ]
+    },
+    {
+        "Title": "Fonts",
+        "Image": "fonts.jpg",
+        "Href": "fonts",
+        "Summary": "Well, fonts.",
+        "Pages": [
+            {
+                "Title": "CategoryPage1Title",
+                "URL": "CategoryPage1URL",
+                "Summary": "CategoryPage1Summary"
+            },
+            {
+                "Title": "CategoryPage2Title",
+                "URL": "CategoryPage2URL",
+                "Summary": "CategoryPage2Summary"
+            }
+        ]
+    }
+]

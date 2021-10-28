@@ -1,0 +1,33 @@
+﻿@using BurneechWebToolbox.Models
+@inject HttpClient Http
+
+@if (categories == null)
+{
+    <p><em>Loading toolbox categories...</em></p>
+}
+else
+{
+    <div class="card-deck">
+        @foreach (var toolboxCategory in categories)
+        {
+            <div class="card">
+                <a href="@toolboxCategory.Href">
+                    <img class="card-img-top" src="data/@(toolboxCategory.Image)" alt="@toolboxCategory.Title">
+                </a>
+                <div class="card-body">
+                    <h5 class="card-title">@toolboxCategory.Title</h5>
+                    <p class="card-text">@toolboxCategory.Summary</p>
+                </div>
+            </div>
+        }
+    </div>
+}
+
+@code {
+    private ToolboxCategory[] categories;
+
+    protected override async Task OnInitializedAsync()
+    {
+        categories = await Http.GetFromJsonAsync<ToolboxCategory[]>("data/ToolboxData.json");
+    }
+}
