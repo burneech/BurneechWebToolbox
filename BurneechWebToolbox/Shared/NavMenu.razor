@@ -1,4 +1,8 @@
-﻿<div class="top-row pl-4 navbar navbar-dark">
+﻿@using BurneechWebToolbox.Services
+@using BurneechWebToolbox.Models
+@inject IDataService DataService
+
+<div class="top-row pl-4 navbar navbar-dark">
     <a class="navbar-brand" href="">Burneech's Web Toolbox</a>
     <button class="navbar-toggler" @onclick="ToggleNavMenu">
         <span class="navbar-toggler-icon"></span>
@@ -7,36 +11,25 @@
 
 <div class="@NavMenuCssClass" @onclick="ToggleNavMenu">
     <ul class="nav flex-column">
-        <li class="nav-item px-3">
-            <NavLink class="nav-link" href="calculators">
-                <span class="oi oi-calculator" aria-hidden="true"></span> Calculators
-            </NavLink>
-        </li>
-        <li class="nav-item px-3">
-            <NavLink class="nav-link" href="editors">
-                <span class="oi oi-pencil" aria-hidden="true"></span> Editors
-            </NavLink>
-        </li>
-        <li class="nav-item px-3">
-            <NavLink class="nav-link" href="media">
-                <span class="oi oi-image" aria-hidden="true"></span> Media
-            </NavLink>
-        </li>
-        <li class="nav-item px-3">
-            <NavLink class="nav-link" href="colors">
-                <span class="oi oi-brush" aria-hidden="true"></span> Colors
-            </NavLink>
-        </li>
-        <li class="nav-item px-3">
-            <NavLink class="nav-link" href="text">
-                <span class="oi oi-book" aria-hidden="true"></span> Text
-            </NavLink>
-        </li>
-        <li class="nav-item px-3">
-            <NavLink class="nav-link" href="fonts">
-                <span class="oi oi-text" aria-hidden="true"></span> Fonts
-            </NavLink>
-        </li>
+        @if (_toolboxCategories == null)
+        {
+            <li class="nav-item px-3">
+                <NavLink class="nav-link">
+                    <span class="oi oi-cog" aria-hidden="true"></span> Loading...
+                </NavLink>
+            </li>
+        }
+        else
+        {
+            @foreach (var category in _toolboxCategories)
+            {
+                <li class="nav-item px-3">
+                    <NavLink class="nav-link" href="@category.CategoryHref">
+                        <span class="@category.CategoryIcon" aria-hidden="true"></span> @category.CategoryTitle
+                    </NavLink>
+                </li>
+            }
+        }
     </ul>
 </div>
 
@@ -49,4 +42,7 @@
     {
         collapseNavMenu = !collapseNavMenu;
     }
+
+    private IEnumerable<ToolboxCategory> _toolboxCategories;
+    protected override async Task OnInitializedAsync() => _toolboxCategories = await DataService.GetToolboxCategories();
 }

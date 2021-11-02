@@ -1,22 +1,23 @@
-﻿@using BurneechWebToolbox.Models
-@inject HttpClient Http
+﻿@using BurneechWebToolbox.Services
+@using BurneechWebToolbox.Models
+@inject IDataService DataService
 
-@if (categories == null)
+@if (_toolboxCategories == null)
 {
     <p><em>Loading toolbox categories...</em></p>
 }
 else
 {
     <div class="card-deck">
-        @foreach (var toolboxCategory in categories)
+        @foreach (var category in _toolboxCategories)
         {
             <div class="card">
-                <a href="@toolboxCategory.Href">
-                    <img class="card-img-top" src="data/@(toolboxCategory.Image)" alt="@toolboxCategory.Title">
+                <a href="@category.CategoryHref">
+                    <img class="card-img-top" src="data/@(category.CategoryImage)" alt="@category.CategoryTitle">
                 </a>
                 <div class="card-body">
-                    <h5 class="card-title">@toolboxCategory.Title</h5>
-                    <p class="card-text">@toolboxCategory.Summary</p>
+                    <h5 class="card-title">@category.CategoryTitle</h5>
+                    <p class="card-text">@category.CategorySummary</p>
                 </div>
             </div>
         }
@@ -24,10 +25,6 @@ else
 }
 
 @code {
-    private ToolboxCategory[] categories;
-
-    protected override async Task OnInitializedAsync()
-    {
-        categories = await Http.GetFromJsonAsync<ToolboxCategory[]>("data/ToolboxData.json");
-    }
+    private IEnumerable<ToolboxCategory> _toolboxCategories;
+    protected override async Task OnInitializedAsync() => _toolboxCategories = await DataService.GetToolboxCategories();
 }

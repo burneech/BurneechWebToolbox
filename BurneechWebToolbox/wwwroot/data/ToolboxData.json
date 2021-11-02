@@ -1,110 +1,251 @@
 [
-    {
-        "Title": "Calculators",
-        "Image": "calculators.jpg",
-        "Href": "calculators",
-        "Summary": "Calculators, converters & generators.",
-        "Pages": [
-            {
-                "Title": "CategoryPage1Title",
-                "URL": "CategoryPage1URL",
-                "Summary": "CategoryPage1Summary"
-            },
-            {
-                "Title": "CategoryPage2Title",
-                "URL": "CategoryPage2URL",
-                "Summary": "CategoryPage2Summary"
-            }
+  {
+    "CategoryTitle": "Calculators",
+    "CategoryImage": "calculators.jpg",
+    "CategoryHref": "calculators",
+    "CategoryIcon": "oi oi-calculator",
+    "CategorySummary": "Calculators, converters & generators.",
+    "Subcategories": [
+      {
+        "SubcategoryTitle": "Calculators",
+        "SubcategoryPages": [
+          {
+            "SubcategoryPageTitle": "IP Subnet calculator",
+            "SubcategoryPageURL": "https://www.calculator.net/ip-subnet-calculator.html",
+            "SubcategoryPageSummary": "This calculator returns a variety of information regarding IPv4 and IPv6 subnets including network addresses, host ranges, subnet mask, IP class etc."
+          },
+          {
+            "SubcategoryPageTitle": "Visual Subnet Calculator",
+            "SubcategoryPageURL": "https://www.davidc.net/sites/default/subnets/subnets.html",
+            "SubcategoryPageSummary": "Online network subnetting calculator"
+          },
+          {
+            "SubcategoryPageTitle": "Date Calculator",
+            "SubcategoryPageURL": "https://www.calculator.net/date-calculator.html",
+            "SubcategoryPageSummary": "Find the number of days, years, months etc. between dates. Subtract from a date."
+          },
+          {
+            "SubcategoryPageTitle": "RapidTables Calculators",
+            "SubcategoryPageURL": "https://www.rapidtables.com/calc/index.html",
+            "SubcategoryPageSummary": "Age, date, grade, interest, math and many more calculators."
+          }
         ]
-    },
-    {
-        "Title": "Editors",
-        "Image": "editors.jpg",
-        "Href": "editors",
-        "Summary": "Different kinds of online editors.",
-        "Pages": [
-            {
-                "Title": "CategoryPage1Title",
-                "URL": "CategoryPage1URL",
-                "Summary": "CategoryPage1Summary"
-            },
-            {
-                "Title": "CategoryPage2Title",
-                "URL": "CategoryPage2URL",
-                "Summary": "CategoryPage2Summary"
-            }
+      },
+      {
+        "SubcategoryTitle": "Converters",
+        "SubcategoryPages": [
+          {
+            "SubcategoryPageTitle": "Epoch Converter",
+            "SubcategoryPageURL": "https://www.epochconverter.com/",
+            "SubcategoryPageSummary": "Epoch & Unix timestamp conversion tools"
+          },
+          {
+            "SubcategoryPageTitle": "CyberChef",
+            "SubcategoryPageURL": "https://gchq.github.io/CyberChef/",
+            "SubcategoryPageSummary": "The Cyber Swiss Army Knife. Supports more than 300 different operations."
+          },
+          {
+            "SubcategoryPageTitle": "RapidTables Converters",
+            "SubcategoryPageURL": "https://www.rapidtables.com/convert/index.html",
+            "SubcategoryPageSummary": "Length, weight, power, temperature, number and many more converters."
+          }
         ]
-    },
-    {
-        "Title": "Media",
-        "Image": "media.jpg",
-        "Href": "media",
-        "Summary": "Images, icons, videos etc.",
-        "Pages": [
-            {
-                "Title": "CategoryPage1Title",
-                "URL": "CategoryPage1URL",
-                "Summary": "CategoryPage1Summary"
-            },
-            {
-                "Title": "CategoryPage2Title",
-                "URL": "CategoryPage2URL",
-                "Summary": "CategoryPage2Summary"
-            }
+      }
+    ]
+  },
+  {
+    "CategoryTitle": "Editors",
+    "CategoryImage": "editors.jpg",
+    "CategoryHref": "editors",
+    "CategoryIcon": "oi oi-pencil",
+    "CategorySummary": "Different kinds of online editors.",
+    "Subcategories": [
+      {
+        "SubcategoryTitle": "Subcategory Title 1",
+        "SubcategoryPages": [
+          {
+            "SubcategoryPageTitle": "Subcategory Page Title 1.1",
+            "SubcategoryPageURL": "Subcategory Page URL 1.1",
+            "SubcategoryPageSummary": "Subcategory Page Summary 1.1"
+          },
+          {
+            "SubcategoryPageTitle": "Subcategory Page Title 1.2",
+            "SubcategoryPageURL": "Subcategory Page URL 1.2",
+            "SubcategoryPageSummary": "Subcategory Page Summary 1.2"
+          }
         ]
-    },
-    {
-        "Title": "Colors",
-        "Image": "colors.jpg",
-        "Href": "colors",
-        "Summary": "UI colors, palettes, color pickers etc.",
-        "Pages": [
-            {
-                "Title": "CategoryPage1Title",
-                "URL": "CategoryPage1URL",
-                "Summary": "CategoryPage1Summary"
-            },
-            {
-                "Title": "CategoryPage2Title",
-                "URL": "CategoryPage2URL",
-                "Summary": "CategoryPage2Summary"
-            }
+      },
+      {
+        "SubcategoryTitle": "Subcategory Title 2",
+        "SubcategoryPages": [
+          {
+            "SubcategoryPageTitle": "Subcategory Page Title 2.1",
+            "SubcategoryPageURL": "Subcategory Page URL 2.1",
+            "SubcategoryPageSummary": "Subcategory Page Summary 2.1"
+          },
+          {
+            "SubcategoryPageTitle": "Subcategory Page Title 2.2",
+            "SubcategoryPageURL": "Subcategory Page URL 2.2",
+            "SubcategoryPageSummary": "Subcategory Page Summary 2.2"
+          }
         ]
-    },
-    {
-        "Title": "Text",
-        "Image": "text.jpg",
-        "Href": "text",
-        "Summary": "Text, characters, dictionaries, encoding, licences...",
-        "Pages": [
-            {
-                "Title": "CategoryPage1Title",
-                "URL": "CategoryPage1URL",
-                "Summary": "CategoryPage1Summary"
-            },
-            {
-                "Title": "CategoryPage2Title",
-                "URL": "CategoryPage2URL",
-                "Summary": "CategoryPage2Summary"
-            }
+      }
+    ]
+  },
+  {
+    "CategoryTitle": "Media",
+    "CategoryImage": "media.jpg",
+    "CategoryHref": "media",
+    "CategoryIcon": "oi oi-image",
+    "CategorySummary": "Images, icons, videos etc.",
+    "Subcategories": [
+      {
+        "SubcategoryTitle": "Subcategory Title 1",
+        "SubcategoryPages": [
+          {
+            "SubcategoryPageTitle": "Subcategory Page Title 1.1",
+            "SubcategoryPageURL": "Subcategory Page URL 1.1",
+            "SubcategoryPageSummary": "Subcategory Page Summary 1.1"
+          },
+          {
+            "SubcategoryPageTitle": "Subcategory Page Title 1.2",
+            "SubcategoryPageURL": "Subcategory Page URL 1.2",
+            "SubcategoryPageSummary": "Subcategory Page Summary 1.2"
+          }
         ]
-    },
-    {
-        "Title": "Fonts",
-        "Image": "fonts.jpg",
-        "Href": "fonts",
-        "Summary": "Well, fonts.",
-        "Pages": [
-            {
-                "Title": "CategoryPage1Title",
-                "URL": "CategoryPage1URL",
-                "Summary": "CategoryPage1Summary"
-            },
-            {
-                "Title": "CategoryPage2Title",
-                "URL": "CategoryPage2URL",
-                "Summary": "CategoryPage2Summary"
-            }
+      },
+      {
+        "SubcategoryTitle": "Subcategory Title 2",
+        "SubcategoryPages": [
+          {
+            "SubcategoryPageTitle": "Subcategory Page Title 2.1",
+            "SubcategoryPageURL": "Subcategory Page URL 2.1",
+            "SubcategoryPageSummary": "Subcategory Page Summary 2.1"
+          },
+          {
+            "SubcategoryPageTitle": "Subcategory Page Title 2.2",
+            "SubcategoryPageURL": "Subcategory Page URL 2.2",
+            "SubcategoryPageSummary": "Subcategory Page Summary 2.2"
+          }
         ]
-    }
+      }
+    ]
+  },
+  {
+    "CategoryTitle": "Colors",
+    "CategoryImage": "colors.jpg",
+    "CategoryHref": "colors",
+    "CategoryIcon": "oi oi-brush",
+    "CategorySummary": "UI colors, palettes, color pickers etc.",
+    "Subcategories": [
+      {
+        "SubcategoryTitle": "Subcategory Title 1",
+        "SubcategoryPages": [
+          {
+            "SubcategoryPageTitle": "Subcategory Page Title 1.1",
+            "SubcategoryPageURL": "Subcategory Page URL 1.1",
+            "SubcategoryPageSummary": "Subcategory Page Summary 1.1"
+          },
+          {
+            "SubcategoryPageTitle": "Subcategory Page Title 1.2",
+            "SubcategoryPageURL": "Subcategory Page URL 1.2",
+            "SubcategoryPageSummary": "Subcategory Page Summary 1.2"
+          }
+        ]
+      },
+      {
+        "SubcategoryTitle": "Subcategory Title 2",
+        "SubcategoryPages": [
+          {
+            "SubcategoryPageTitle": "Subcategory Page Title 2.1",
+            "SubcategoryPageURL": "Subcategory Page URL 2.1",
+            "SubcategoryPageSummary": "Subcategory Page Summary 2.1"
+          },
+          {
+            "SubcategoryPageTitle": "Subcategory Page Title 2.2",
+            "SubcategoryPageURL": "Subcategory Page URL 2.2",
+            "SubcategoryPageSummary": "Subcategory Page Summary 2.2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "CategoryTitle": "Text",
+    "CategoryImage": "text.jpg",
+    "CategoryHref": "text",
+    "CategoryIcon": "oi oi-book",
+    "CategorySummary": "Text, characters, dictionaries, encoding, licences...",
+    "Subcategories": [
+      {
+        "SubcategoryTitle": "Subcategory Title 1",
+        "SubcategoryPages": [
+          {
+            "SubcategoryPageTitle": "Subcategory Page Title 1.1",
+            "SubcategoryPageURL": "Subcategory Page URL 1.1",
+            "SubcategoryPageSummary": "Subcategory Page Summary 1.1"
+          },
+          {
+            "SubcategoryPageTitle": "Subcategory Page Title 1.2",
+            "SubcategoryPageURL": "Subcategory Page URL 1.2",
+            "SubcategoryPageSummary": "Subcategory Page Summary 1.2"
+          }
+        ]
+      },
+      {
+        "SubcategoryTitle": "Subcategory Title 2",
+        "SubcategoryPages": [
+          {
+            "SubcategoryPageTitle": "Subcategory Page Title 2.1",
+            "SubcategoryPageURL": "Subcategory Page URL 2.1",
+            "SubcategoryPageSummary": "Subcategory Page Summary 2.1"
+          },
+          {
+            "SubcategoryPageTitle": "Subcategory Page Title 2.2",
+            "SubcategoryPageURL": "Subcategory Page URL 2.2",
+            "SubcategoryPageSummary": "Subcategory Page Summary 2.2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "CategoryTitle": "Fonts",
+    "CategoryImage": "fonts.jpg",
+    "CategoryHref": "fonts",
+    "CategoryIcon": "oi oi-text",
+    "CategorySummary": "Well, fonts.",
+    "Subcategories": [
+      {
+        "SubcategoryTitle": "Subcategory Title 1",
+        "SubcategoryPages": [
+          {
+            "SubcategoryPageTitle": "Subcategory Page Title 1.1",
+            "SubcategoryPageURL": "Subcategory Page URL 1.1",
+            "SubcategoryPageSummary": "Subcategory Page Summary 1.1"
+          },
+          {
+            "SubcategoryPageTitle": "Subcategory Page Title 1.2",
+            "SubcategoryPageURL": "Subcategory Page URL 1.2",
+            "SubcategoryPageSummary": "Subcategory Page Summary 1.2"
+          }
+        ]
+      },
+      {
+        "SubcategoryTitle": "Subcategory Title 2",
+        "SubcategoryPages": [
+          {
+            "SubcategoryPageTitle": "Subcategory Page Title 2.1",
+            "SubcategoryPageURL": "Subcategory Page URL 2.1",
+            "SubcategoryPageSummary": "Subcategory Page Summary 2.1"
+          },
+          {
+            "SubcategoryPageTitle": "Subcategory Page Title 2.2",
+            "SubcategoryPageURL": "Subcategory Page URL 2.2",
+            "SubcategoryPageSummary": "Subcategory Page Summary 2.2"
+          }
+        ]
+      }
+    ]
+  }
 ]

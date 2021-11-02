@@ -4,10 +4,11 @@ namespace BurneechWebToolbox.Models
 {
     public class ToolboxCategory
     {
-        public string Title { get; set; }
-        public string Image { get; set; }
-        public string Href { get; set; }
-        public string Summary { get; set; }
-        public List<ToolboxCategoryPage> Pages { get; set; }
+        public string CategoryTitle { get; set; }
+        public string CategoryImage { get; set; }
+        public string CategoryHref { get; set; }
+        public string CategoryIcon { get; set; }
+        public string CategorySummary { get; set; }
+        public List<ToolboxSubcategory> Subcategories { get; set; }
     }
 }

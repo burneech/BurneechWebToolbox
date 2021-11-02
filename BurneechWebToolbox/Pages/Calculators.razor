@@ -1,7 +1,50 @@
 ﻿@page "/calculators"
+@using BurneechWebToolbox.Services
+@using BurneechWebToolbox.Models
+@inject IDataService DataService
 
-<h1>Calculators</h1>
+@if (_toolboxCategories == null)
+{
+    <p><em>Loading category...</em></p>
+}
+else
+{
+    <h1>@_thisCategory.CategoryTitle</h1>
+    @foreach (var subcategory in _thisCategory.Subcategories)
+    {
+        <h2>@subcategory.SubcategoryTitle</h2>
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th scope="col">Title</th>
+                    <th scope="col">URL</th>
+                    <th scope="col">Summary</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var subcategoryPage in subcategory.SubcategoryPages)
+                {
+                    <tr>
+                        <th scope="row">@subcategoryPage.SubcategoryPageTitle</th>
+                        <td>@subcategoryPage.SubcategoryPageURL</td>
+                        <td>@subcategoryPage.SubcategoryPageSummary</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+}
 
 @code {
+    private string _pageName = "Calculators";   // Edit to match page/category name
 
+    private IEnumerable<ToolboxCategory> _toolboxCategories;
+    private ToolboxCategory _thisCategory;
+
+    protected override async Task OnInitializedAsync()
+    {
+        _toolboxCategories = await DataService.GetToolboxCategories();
+        //thisCategory = _toolboxCategories.Where(cat => cat.CategoryTitle == _pageName);
+        _thisCategory = _toolboxCategories.First(cat => cat.CategoryTitle == _pageName);
+    }
 }
