@@ -1,0 +1,40 @@
+﻿@using BurneechWebToolbox.Services
+@using BurneechWebToolbox.Models
+@inject IDataService DataService
+
+@if (_toolboxCategories == null)
+{
+    <p><em>Loading @(PageName)...</em></p>
+}
+else
+{
+    <h1>@_thisCategory.CategoryTitle</h1>
+    @foreach (var subcategory in _thisCategory.Subcategories)
+    {
+        <hr />
+        <h4>@subcategory.SubcategoryTitle</h4>
+        <div class="list-group">
+            @foreach (var subcategoryPage in subcategory.SubcategoryPages)
+            {
+                <a href="@subcategoryPage.SubcategoryPageURL" target="_blank" class="list-group-item list-group-item-action" data-toggle="tooltip"
+                   data-placement="top" title="@subcategoryPage.SubcategoryPageSummary">
+                    @subcategoryPage.SubcategoryPageTitle
+                </a>
+            }
+        </div>
+    }
+}
+
+@code {
+    [Parameter]
+    public string PageName { get; set; }
+
+    private IEnumerable<ToolboxCategory> _toolboxCategories;
+    private ToolboxCategory _thisCategory;
+
+    protected override async Task OnInitializedAsync()
+    {
+        _toolboxCategories = await DataService.GetToolboxCategories();
+        _thisCategory = _toolboxCategories.First(cat => cat.CategoryTitle == PageName);
+    }
+}

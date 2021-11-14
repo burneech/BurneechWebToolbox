@@ -50,6 +50,21 @@
             "SubcategoryPageSummary": "Length, weight, power, temperature, number and many more converters."
           }
         ]
+      },
+      {
+        "SubcategoryTitle": "Generators",
+        "SubcategoryPages": [
+          {
+            "SubcategoryPageTitle": "Favicon Generator",
+            "SubcategoryPageURL": "https://realfavicongenerator.net/",
+            "SubcategoryPageSummary": "Favicon icon generator for perfect icons on all browsers and platforms."
+          },
+          {
+            "SubcategoryPageTitle": "Random User Generator",
+            "SubcategoryPageURL": "https://randomuser.me/",
+            "SubcategoryPageSummary": "A free, open-source API for generating random user data. Like Lorem Ipsum, but for people."
+          }
+        ]
       }
     ]
   },
