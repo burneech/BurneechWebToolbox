@@ -1,4 +1,4 @@
-[
+﻿[
   {
     "CategoryTitle": "Calculators",
     "CategoryImage": "calculators.jpg",
@@ -10,6 +10,16 @@
         "SubcategoryTitle": "Calculators",
         "SubcategoryPages": [
           {
+            "SubcategoryPageTitle": "RapidTables Calculators",
+            "SubcategoryPageURL": "https://www.rapidtables.com/calc/index.html",
+            "SubcategoryPageSummary": "Age, date, grade, interest, math and many more calculators."
+          },
+          {
+            "SubcategoryPageTitle": "Date Calculator",
+            "SubcategoryPageURL": "https://www.calculator.net/date-calculator.html",
+            "SubcategoryPageSummary": "Find the number of days, years, months etc. between dates. Subtract from a date."
+          },
+          {
             "SubcategoryPageTitle": "IP Subnet calculator",
             "SubcategoryPageURL": "https://www.calculator.net/ip-subnet-calculator.html",
             "SubcategoryPageSummary": "This calculator returns a variety of information regarding IPv4 and IPv6 subnets including network addresses, host ranges, subnet mask, IP class etc."
@@ -18,22 +28,17 @@
             "SubcategoryPageTitle": "Visual Subnet Calculator",
             "SubcategoryPageURL": "https://www.davidc.net/sites/default/subnets/subnets.html",
             "SubcategoryPageSummary": "Online network subnetting calculator"
-          },
-          {
-            "SubcategoryPageTitle": "Date Calculator",
-            "SubcategoryPageURL": "https://www.calculator.net/date-calculator.html",
-            "SubcategoryPageSummary": "Find the number of days, years, months etc. between dates. Subtract from a date."
-          },
-          {
-            "SubcategoryPageTitle": "RapidTables Calculators",
-            "SubcategoryPageURL": "https://www.rapidtables.com/calc/index.html",
-            "SubcategoryPageSummary": "Age, date, grade, interest, math and many more calculators."
           }
         ]
       },
       {
         "SubcategoryTitle": "Converters",
         "SubcategoryPages": [
+          {
+            "SubcategoryPageTitle": "RapidTables Converters",
+            "SubcategoryPageURL": "https://www.rapidtables.com/convert/index.html",
+            "SubcategoryPageSummary": "Length, weight, power, temperature, number and many more converters."
+          },
           {
             "SubcategoryPageTitle": "Epoch Converter",
             "SubcategoryPageURL": "https://www.epochconverter.com/",
@@ -43,11 +48,6 @@
             "SubcategoryPageTitle": "CyberChef",
             "SubcategoryPageURL": "https://gchq.github.io/CyberChef/",
             "SubcategoryPageSummary": "The Cyber Swiss Army Knife. Supports more than 300 different operations."
-          },
-          {
-            "SubcategoryPageTitle": "RapidTables Converters",
-            "SubcategoryPageURL": "https://www.rapidtables.com/convert/index.html",
-            "SubcategoryPageSummary": "Length, weight, power, temperature, number and many more converters."
           }
         ]
       },
@@ -76,32 +76,77 @@
     "CategorySummary": "Different kinds of online editors.",
     "Subcategories": [
       {
-        "SubcategoryTitle": "Subcategory Title 1",
+        "SubcategoryTitle": "Diagrams",
         "SubcategoryPages": [
           {
-            "SubcategoryPageTitle": "Subcategory Page Title 1.1",
-            "SubcategoryPageURL": "Subcategory Page URL 1.1",
-            "SubcategoryPageSummary": "Subcategory Page Summary 1.1"
-          },
-          {
-            "SubcategoryPageTitle": "Subcategory Page Title 1.2",
-            "SubcategoryPageURL": "Subcategory Page URL 1.2",
-            "SubcategoryPageSummary": "Subcategory Page Summary 1.2"
+            "SubcategoryPageTitle": "Diagrams.net (ex Draw.io)",
+            "SubcategoryPageURL": "https://app.diagrams.net/",
+            "SubcategoryPageSummary": "Free online software for creating diagrams, flowcharts, UMLs etc."
           }
         ]
       },
       {
-        "SubcategoryTitle": "Subcategory Title 2",
+        "SubcategoryTitle": "Images & posters",
         "SubcategoryPages": [
           {
-            "SubcategoryPageTitle": "Subcategory Page Title 2.1",
-            "SubcategoryPageURL": "Subcategory Page URL 2.1",
-            "SubcategoryPageSummary": "Subcategory Page Summary 2.1"
+            "SubcategoryPageTitle": "Photopea",
+            "SubcategoryPageURL": "https://www.photopea.com/",
+            "SubcategoryPageSummary": "Free online photo editor supporting Photoshop, GIMP, Sketch App, Adobe XD and CorelDRAW formats."
           },
           {
-            "SubcategoryPageTitle": "Subcategory Page Title 2.2",
-            "SubcategoryPageURL": "Subcategory Page URL 2.2",
-            "SubcategoryPageSummary": "Subcategory Page Summary 2.2"
+            "SubcategoryPageTitle": "Canva",
+            "SubcategoryPageURL": "https://www.canva.com/",
+            "SubcategoryPageSummary": "Graphic design platform used to create social media graphics, posters, presentations and other visual content."
+          }
+        ]
+      },
+      {
+        "SubcategoryTitle": "Whiteboards & designers",
+        "SubcategoryPages": [
+          {
+            "SubcategoryPageTitle": "Figma",
+            "SubcategoryPageURL": "https://www.figma.com/",
+            "SubcategoryPageSummary": "A collaborative interface design tool."
+          },
+          {
+            "SubcategoryPageTitle": "Miro",
+            "SubcategoryPageURL": "https://miro.com",
+            "SubcategoryPageSummary": "Team collaboration whiteboard."
+          },
+          {
+            "SubcategoryPageTitle": "Whimsical",
+            "SubcategoryPageURL": "https://whimsical.com/",
+            "SubcategoryPageSummary": "Visual workspace for thinking and collaboration. Docs, flowcharts, mind maps, notes..."
+          },
+          {
+            "SubcategoryPageTitle": "Google Jamboard",
+            "SubcategoryPageURL": "https://jamboard.google.com/",
+            "SubcategoryPageSummary": "A simple interactive whiteboard."
+          }
+        ]
+      },
+      {
+        "SubcategoryTitle": "Markdown",
+        "SubcategoryPages": [
+          {
+            "SubcategoryPageTitle": "Dillinger",
+            "SubcategoryPageURL": "https://dillinger.io/",
+            "SubcategoryPageSummary": "An online markdown editor."
+          },
+          {
+            "SubcategoryPageTitle": "StackEdit",
+            "SubcategoryPageURL": "https://stackedit.io/app#",
+            "SubcategoryPageSummary": "Online markdown editor with inline comments and collaborator discussions."
+          }
+        ]
+      },
+      {
+        "SubcategoryTitle": "3D",
+        "SubcategoryPages": [
+          {
+            "SubcategoryPageTitle": "SketchUp",
+            "SubcategoryPageURL": "https://app.sketchup.com/app",
+            "SubcategoryPageSummary": "A simple (but still powerful enough) and free 3D modeling software."
           }
         ]
       }
@@ -112,35 +157,175 @@
     "CategoryImage": "media.jpg",
     "CategoryHref": "media",
     "CategoryIcon": "oi oi-image",
-    "CategorySummary": "Images, icons, videos etc.",
+    "CategorySummary": "Icons, photos, videos, audio etc.",
     "Subcategories": [
       {
-        "SubcategoryTitle": "Subcategory Title 1",
+        "SubcategoryTitle": "Icons",
         "SubcategoryPages": [
           {
-            "SubcategoryPageTitle": "Subcategory Page Title 1.1",
-            "SubcategoryPageURL": "Subcategory Page URL 1.1",
-            "SubcategoryPageSummary": "Subcategory Page Summary 1.1"
+            "SubcategoryPageTitle": "Feather Icons",
+            "SubcategoryPageURL": "https://feathericons.com/",
+            "SubcategoryPageSummary": "A unified collection set of open source icons."
           },
           {
-            "SubcategoryPageTitle": "Subcategory Page Title 1.2",
-            "SubcategoryPageURL": "Subcategory Page URL 1.2",
-            "SubcategoryPageSummary": "Subcategory Page Summary 1.2"
+            "SubcategoryPageTitle": "Google Icons",
+            "SubcategoryPageURL": "https://fonts.google.com/icons",
+            "SubcategoryPageSummary": "Free icons by Google."
+          },
+          {
+            "SubcategoryPageTitle": "Bootstrap Icons",
+            "SubcategoryPageURL": "https://icons.getbootstrap.com/",
+            "SubcategoryPageSummary": "Free, high quality, open source icon library with over 1,500 icons."
+          },
+          {
+            "SubcategoryPageTitle": "Iconify",
+            "SubcategoryPageURL": "https://iconify.design/",
+            "SubcategoryPageSummary": "A unified open source icon framework."
+          },
+          {
+            "SubcategoryPageTitle": "Open Iconic",
+            "SubcategoryPageURL": "https://useiconic.com/open",
+            "SubcategoryPageSummary": "An open source icon set."
+          },
+          {
+            "SubcategoryPageTitle": "Font Awesome",
+            "SubcategoryPageURL": "https://fontawesome.com/v6.0/icons?m=free",
+            "SubcategoryPageSummary": "Free Version 6 Beta icons by Font Awesome."
+          },
+          {
+            "SubcategoryPageTitle": "Flaticon",
+            "SubcategoryPageURL": "https://www.flaticon.com/",
+            "SubcategoryPageSummary": "Free vector icons and stickers."
+          },
+          {
+            "SubcategoryPageTitle": "The Noun Project",
+            "SubcategoryPageURL": "https://thenounproject.com/",
+            "SubcategoryPageSummary": "Free icons & stock photos."
+          },
+          {
+            "SubcategoryPageTitle": "Icon-icons.com",
+            "SubcategoryPageURL": "https://icon-icons.com/",
+            "SubcategoryPageSummary": "Free icons for personal and commercial use."
+          },
+          {
+            "SubcategoryPageTitle": "AutoDraw",
+            "SubcategoryPageURL": "https://www.autodraw.com/",
+            "SubcategoryPageSummary": "Find icons by drawing."
           }
         ]
       },
       {
-        "SubcategoryTitle": "Subcategory Title 2",
+        "SubcategoryTitle": "Photos",
         "SubcategoryPages": [
           {
-            "SubcategoryPageTitle": "Subcategory Page Title 2.1",
-            "SubcategoryPageURL": "Subcategory Page URL 2.1",
-            "SubcategoryPageSummary": "Subcategory Page Summary 2.1"
+            "SubcategoryPageTitle": "Unsplash",
+            "SubcategoryPageURL": "https://unsplash.com/",
+            "SubcategoryPageSummary": "Free images and photos that you can download and use for any project."
           },
           {
-            "SubcategoryPageTitle": "Subcategory Page Title 2.2",
-            "SubcategoryPageURL": "Subcategory Page URL 2.2",
-            "SubcategoryPageSummary": "Subcategory Page Summary 2.2"
+            "SubcategoryPageTitle": "Pexels",
+            "SubcategoryPageURL": "https://www.pexels.com/",
+            "SubcategoryPageSummary": "Free stock photos, royalty free images & videos shared by creators."
+          },
+          {
+            "SubcategoryPageTitle": "Pixabay",
+            "SubcategoryPageURL": "https://pixabay.com/",
+            "SubcategoryPageSummary": "Free images & royalty free stock."
+          },
+          {
+            "SubcategoryPageTitle": "Vecteezy",
+            "SubcategoryPageURL": "https://www.vecteezy.com/free-photos",
+            "SubcategoryPageSummary": "High quality photography with worry-free licensing for personal and commercial use."
+          }
+        ]
+      },
+      {
+        "SubcategoryTitle": "Videos",
+        "SubcategoryPages": [
+          {
+            "SubcategoryPageTitle": "Pexels",
+            "SubcategoryPageURL": "https://www.pexels.com/",
+            "SubcategoryPageSummary": "Free stock photos, royalty free images & videos shared by creators."
+          },
+          {
+            "SubcategoryPageTitle": "Videezy",
+            "SubcategoryPageURL": "https://www.videezy.com/",
+            "SubcategoryPageSummary": "Free HD & 4K stock footage."
+          },
+          {
+            "SubcategoryPageTitle": "Videvo",
+            "SubcategoryPageURL": "https://www.videvo.net/",
+            "SubcategoryPageSummary": "Free stock video footage, royalty-free clips."
+          },
+          {
+            "SubcategoryPageTitle": "Vecteezy",
+            "SubcategoryPageURL": "https://www.vecteezy.com/free-videos",
+            "SubcategoryPageSummary": "High quality videos with worry-free licensing for personal and commercial use."
+          }
+        ]
+      },
+      {
+        "SubcategoryTitle": "Audio",
+        "SubcategoryPages": [
+          {
+            "SubcategoryPageTitle": "Mixkit",
+            "SubcategoryPageURL": "https://mixkit.co/",
+            "SubcategoryPageSummary": "Stock video clips, stock music, sound effects & video templates."
+          },
+          {
+            "SubcategoryPageTitle": "Freesound",
+            "SubcategoryPageURL": "https://freesound.org/",
+            "SubcategoryPageSummary": "A collaborative database of Creative Commons Licensed sounds."
+          },
+          {
+            "SubcategoryPageTitle": "Audiojungle",
+            "SubcategoryPageURL": "https://audiojungle.net/",
+            "SubcategoryPageSummary": "Royalty free music and audio tracks from $1."
+          }
+        ]
+      },
+      {
+        "SubcategoryTitle": "Animations",
+        "SubcategoryPages": [
+          {
+            "SubcategoryPageTitle": "Rive",
+            "SubcategoryPageURL": "https://rive.app/",
+            "SubcategoryPageSummary": "Create and ship interactive animations to any platform."
+          }
+        ]
+      },
+      {
+        "SubcategoryTitle": "Maps & Charts",
+        "SubcategoryPages": [
+          {
+            "SubcategoryPageTitle": "amCharts",
+            "SubcategoryPageURL": "https://www.amcharts.com/svg-maps/",
+            "SubcategoryPageSummary": "Free SVG maps."
+          }
+        ]
+      },
+      {
+        "SubcategoryTitle": "Samples & Placeholders",
+        "SubcategoryPages": [
+          {
+            "SubcategoryPageTitle": "Placeholder.com",
+            "SubcategoryPageURL": "https://placeholder.com/",
+            "SubcategoryPageSummary": "Free image placeholder service."
+          },
+          {
+            "SubcategoryPageTitle": "Techslides Sample Files",
+            "SubcategoryPageURL": "http://techslides.com/sample-files-for-development",
+            "SubcategoryPageSummary": "Sample files for development."
+          },
+          {
+            "SubcategoryPageTitle": "File Examples",
+            "SubcategoryPageURL": "https://file-examples.com/",
+            "SubcategoryPageSummary": "Download files in many resolution or size for test or demo use."
+          },
+          {
+            "SubcategoryPageTitle": "File Samples",
+            "SubcategoryPageURL": "https://filesamples.com/",
+            "SubcategoryPageSummary": "File samples to use for testing purposes."
           }
         ]
       }
@@ -154,32 +339,27 @@
     "CategorySummary": "UI colors, palettes, color pickers etc.",
     "Subcategories": [
       {
-        "SubcategoryTitle": "Subcategory Title 1",
+        "SubcategoryTitle": "",
         "SubcategoryPages": [
           {
-            "SubcategoryPageTitle": "Subcategory Page Title 1.1",
-            "SubcategoryPageURL": "Subcategory Page URL 1.1",
-            "SubcategoryPageSummary": "Subcategory Page Summary 1.1"
+            "SubcategoryPageTitle": "HTML Color Picker",
+            "SubcategoryPageURL": "https://www.w3schools.com/colors/colors_picker.asp",
+            "SubcategoryPageSummary": "W3 Schools online HTML color picker."
           },
           {
-            "SubcategoryPageTitle": "Subcategory Page Title 1.2",
-            "SubcategoryPageURL": "Subcategory Page URL 1.2",
-            "SubcategoryPageSummary": "Subcategory Page Summary 1.2"
-          }
-        ]
-      },
-      {
-        "SubcategoryTitle": "Subcategory Title 2",
-        "SubcategoryPages": [
-          {
-            "SubcategoryPageTitle": "Subcategory Page Title 2.1",
-            "SubcategoryPageURL": "Subcategory Page URL 2.1",
-            "SubcategoryPageSummary": "Subcategory Page Summary 2.1"
+            "SubcategoryPageTitle": "Flat UI Colors",
+            "SubcategoryPageURL": "https://flatuicolors.com/",
+            "SubcategoryPageSummary": "A total set of 280 colors in 14 palettes for your next project."
           },
           {
-            "SubcategoryPageTitle": "Subcategory Page Title 2.2",
-            "SubcategoryPageURL": "Subcategory Page URL 2.2",
-            "SubcategoryPageSummary": "Subcategory Page Summary 2.2"
+            "SubcategoryPageTitle": "ColorHexa",
+            "SubcategoryPageURL": "https://www.colorhexa.com/",
+            "SubcategoryPageSummary": "Color encyclopedia, information and conversion."
+          },
+          {
+            "SubcategoryPageTitle": "ColorMania",
+            "SubcategoryPageURL": "http://www.blacksunsoftware.com/colormania.html",
+            "SubcategoryPageSummary": "An advanced color picker, created for web-designers, graphic artists and application developers."
           }
         ]
       }
@@ -193,32 +373,97 @@
     "CategorySummary": "Text, characters, dictionaries, encoding, licences...",
     "Subcategories": [
       {
-        "SubcategoryTitle": "Subcategory Title 1",
+        "SubcategoryTitle": "Unicode symbols",
         "SubcategoryPages": [
           {
-            "SubcategoryPageTitle": "Subcategory Page Title 1.1",
-            "SubcategoryPageURL": "Subcategory Page URL 1.1",
-            "SubcategoryPageSummary": "Subcategory Page Summary 1.1"
+            "SubcategoryPageTitle": "Unicode Search",
+            "SubcategoryPageURL": "http://xahlee.info/comp/unicode_index.html",
+            "SubcategoryPageSummary": "A search engine for unicode symbols and emojis."
           },
           {
-            "SubcategoryPageTitle": "Subcategory Page Title 1.2",
-            "SubcategoryPageURL": "Subcategory Page URL 1.2",
-            "SubcategoryPageSummary": "Subcategory Page Summary 1.2"
+            "SubcategoryPageTitle": "Unicode Character Table",
+            "SubcategoryPageURL": "https://unicode-table.com/en/",
+            "SubcategoryPageSummary": "A table / search engine for unicode symbols and emojis."
+          },
+          {
+            "SubcategoryPageTitle": "ALT+NUMPAD ASCII Key Combos",
+            "SubcategoryPageURL": "https://www.irongeek.com/alt-numpad-ascii-key-combos-and-chart.html",
+            "SubcategoryPageSummary": "The α and Ω of Creating Obscure Passwords."
+          },
+          {
+            "SubcategoryPageTitle": "HTML5 Character Reference",
+            "SubcategoryPageURL": "https://dev.w3.org/html5/html-author/charref",
+            "SubcategoryPageSummary": "HTML5 character reference."
           }
         ]
       },
       {
-        "SubcategoryTitle": "Subcategory Title 2",
+        "SubcategoryTitle": "Dictionaries & encyclopedias",
         "SubcategoryPages": [
           {
-            "SubcategoryPageTitle": "Subcategory Page Title 2.1",
-            "SubcategoryPageURL": "Subcategory Page URL 2.1",
-            "SubcategoryPageSummary": "Subcategory Page Summary 2.1"
+            "SubcategoryPageTitle": "[English-Croatian] HrOpenWiki IT Dictionary",
+            "SubcategoryPageURL": "http://wiki.open.hr/l10n/rjecnik.html",
+            "SubcategoryPageSummary": "English-Croatian dictionary of information technology."
           },
           {
-            "SubcategoryPageTitle": "Subcategory Page Title 2.2",
-            "SubcategoryPageURL": "Subcategory Page URL 2.2",
-            "SubcategoryPageSummary": "Subcategory Page Summary 2.2"
+            "SubcategoryPageTitle": "[English-Croatian] Stjepan Groš's IT Dictionary",
+            "SubcategoryPageURL": "http://www.zemris.fer.hr/~sgros/stuff/rjecnik.shtml",
+            "SubcategoryPageSummary": "English-Croatian dictionary of information technology."
+          },
+          {
+            "SubcategoryPageTitle": "[Croatian] HAKOM popis i objašnjenja kratica",
+            "SubcategoryPageURL": "https://www.hakom.hr/UserDocsImages/2019/e_trziste/Popis%20i%20obja%C5%A1njenja%20kratica%20kori%C5%A1tenih%20u%20dokumentima%20HAKOM-a%2020190319.pdf",
+            "SubcategoryPageSummary": "Popis i objašnjenja kratica korištenih u dokumentima HAKOM-a."
+          },
+          {
+            "SubcategoryPageTitle": "[Croatian] Rječnik hrvatskih jezika - Goran Igaly",
+            "SubcategoryPageURL": "https://github.com/gigaly/rjecnik-hrvatskih-jezika",
+            "SubcategoryPageSummary": "Besplatni otvoreni hrvatski rječnik za sve namjene."
+          },
+          {
+            "SubcategoryPageTitle": "[Croatian] Enciklopedija.hr",
+            "SubcategoryPageURL": "https://www.enciklopedija.hr/",
+            "SubcategoryPageSummary": "Hrvatska enciklopedija Leksikografskog zavoda Miroslav Krleža."
+          },
+          {
+            "SubcategoryPageTitle": "[Croatian] Struna.hr",
+            "SubcategoryPageURL": "http://struna.ihjj.hr/",
+            "SubcategoryPageSummary": "Terminološka baza hrvatskoga strukovnog nazivlja. (Također: http://nazivlje.hr/)"
+          },
+          {
+            "SubcategoryPageTitle": "[Croatian] Bolje.hr",
+            "SubcategoryPageURL": "http://bolje.hr/",
+            "SubcategoryPageSummary": "Prijedlozi hrvatskih zamjena za strane riječi i tuđice koje su neprilagođene ušle u uporabu u hrvatskome jeziku."
+          }
+        ]
+      },
+      {
+        "SubcategoryTitle": "Proofreaders, grammar and spelling checkers",
+        "SubcategoryPages": [
+          {
+            "SubcategoryPageTitle": "[English] Grammarly Grammar Check",
+            "SubcategoryPageURL": "https://www.grammarly.com/grammar-check",
+            "SubcategoryPageSummary": "Check your English text for grammar, spelling, and punctuation errors."
+          },
+          {
+            "SubcategoryPageTitle": "[English] Hemingway App",
+            "SubcategoryPageURL": "https://hemingwayapp.com/",
+            "SubcategoryPageSummary": "Hemingway App makes your writing bold and clear with suggestions about your sentences."
+          },
+          {
+            "SubcategoryPageTitle": "[Croatian] Ispravi.me",
+            "SubcategoryPageURL": "https://ispravi.me/",
+            "SubcategoryPageSummary": "Aplikacija za računalnu provjeru pravopisa."
+          }
+        ]
+      },
+      {
+        "SubcategoryTitle": "Licenses",
+        "SubcategoryPages": [
+          {
+            "SubcategoryPageTitle": "TLDR Legal",
+            "SubcategoryPageURL": "https://tldrlegal.com/",
+            "SubcategoryPageSummary": "Software licenses in plain English."
           }
         ]
       }
@@ -232,32 +477,32 @@
     "CategorySummary": "Well, fonts.",
     "Subcategories": [
       {
-        "SubcategoryTitle": "Subcategory Title 1",
+        "SubcategoryTitle": "",
         "SubcategoryPages": [
           {
-            "SubcategoryPageTitle": "Subcategory Page Title 1.1",
-            "SubcategoryPageURL": "Subcategory Page URL 1.1",
-            "SubcategoryPageSummary": "Subcategory Page Summary 1.1"
+            "SubcategoryPageTitle": "Google Fonts",
+            "SubcategoryPageURL": "https://fonts.google.com/",
+            "SubcategoryPageSummary": "Free and open source fonts by Google."
           },
           {
-            "SubcategoryPageTitle": "Subcategory Page Title 1.2",
-            "SubcategoryPageURL": "Subcategory Page URL 1.2",
-            "SubcategoryPageSummary": "Subcategory Page Summary 1.2"
-          }
-        ]
-      },
-      {
-        "SubcategoryTitle": "Subcategory Title 2",
-        "SubcategoryPages": [
-          {
-            "SubcategoryPageTitle": "Subcategory Page Title 2.1",
-            "SubcategoryPageURL": "Subcategory Page URL 2.1",
-            "SubcategoryPageSummary": "Subcategory Page Summary 2.1"
+            "SubcategoryPageTitle": "Font Squirrel",
+            "SubcategoryPageURL": "https://www.fontsquirrel.com/",
+            "SubcategoryPageSummary": "100% free fonts licensed for commercial work."
           },
           {
-            "SubcategoryPageTitle": "Subcategory Page Title 2.2",
-            "SubcategoryPageURL": "Subcategory Page URL 2.2",
-            "SubcategoryPageSummary": "Subcategory Page Summary 2.2"
+            "SubcategoryPageTitle": "Font Flipper",
+            "SubcategoryPageURL": "https://fontflipper.com/upload",
+            "SubcategoryPageSummary": "Recognize fonts from uploaded images, edit and download them."
+          },
+          {
+            "SubcategoryPageTitle": "Fonts.com",
+            "SubcategoryPageURL": "https://www.fonts.com/",
+            "SubcategoryPageSummary": "Find, buy and download fonts."
+          },
+          {
+            "SubcategoryPageTitle": "MyFonts",
+            "SubcategoryPageURL": "https://www.myfonts.com/",
+            "SubcategoryPageSummary": "Fonts for print, products and screens."
           }
         ]
       }
